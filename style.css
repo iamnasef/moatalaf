@@ -1,9 +1,10 @@
 @font-face {
-    font-family: 'Futura PT Bold';
-    font-style: normal;
+    font-family: 'Lalezar';
+    src: url('fonts/Lalezar-Regular.ttf') format('truetype');
     font-weight: normal;
-    src: local('CascadiaCode-Bold'), url('fonts/CascadiaCode-Bold.otf') format('otf');
-    }
+    font-style: normal;
+}
+
 
 body, html {
     margin: 0;
@@ -13,8 +14,8 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Futura PT Bold';
-    background-color: #151b35;
+    font-family: 'Lalezar';
+    background-color: #3d4367;
     color: #fff;
 }
 
@@ -28,15 +29,13 @@ body, html {
 }
 
 h1 {
-    font-size: 2.5em;
-    margin: 20px 0;
+    font-size: 4.5em;
+    margin: 0px;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 3.2em;
+	margin-top:0px;
 }
 
-#countdown {
-    font-size: 1.5em;
-    margin-top: 20px;
-}
+
